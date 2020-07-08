@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAIMT-18408-Assignment11</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <p>Products</p>
+  </header>
+  <section class="main">
+    <section class="products">
+      <table>
+        <div id="product 1">
+          <tr>
+            <th>Product 1</th>
+          </tr>
+          <tr>
+            <td><b>Name:</b><span class="pname">Car</span></td>
+          </tr>
+          <tr>
+            <td><b>Price:</b><span class="pname">100$</span></td>
+          </tr>
+          <tr>
+            <td><b>Color:</b><span class="pname">Red</span></td>
+          </tr>
+          <tr>
+            <td><input onclick="change1()" type="button" value="Add Record" id="button1"></input></td>
+          </tr>
+        </div>
+      </table>
+
+      <table>
+        <div id="product 2">
+
+          <tr>
+            <th>Product 2</th>
+          </tr>
+          <tr>
+            <td><b>Name:</b><span class="pname2">Car </span></td>
+          </tr>
+          <tr>
+            <td><b>Price:</b><span class="pname2">150$</span></td>
+          </tr>
+          <tr>
+            <td><b>Color:</b><span class="pname2">Green</span></td>
+          </tr>
+          <tr>
+            <td><input onclick="change2()" type="button" value="Add Record" id="button2"></input></td>
+          </tr>
+        </div>
+      </table>
+
+      <table>
+        <div id="product 3">
+          <tr>
+            <th>Product 3</th>
+          </tr>
+          <tr>
+            <td><b>Name:</b><span class="pname3">Bike</span></td>
+          </tr>
+          <tr>
+            <td><b>Price:</b><span class="pname3">200%</span></td>
+          </tr>
+          <tr>
+            <td><b>Color:</b><span class="pname3">Blue</span></td>
+          </tr>
+          <tr>
+            <td><input onclick="change3()" type="button" value="Add Record" id="button3"></input></td>
+          </tr>
+        </div>
+      </table>
+    </section>
+    <section class="sproducts">
+      <h3>Selected Products</h3>
+      <table id="displayData">
+        <tr>
+          <th>pid</th>
+          <th>Name</th>
+          <th>Color</th>
+          <th>Price</th>
+        </tr>
+
+      </table>
+    </section>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
